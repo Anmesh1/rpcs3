@@ -1,22 +1,22 @@
-/* 7zBuf.h -- Byte Buffer
-2017-04-03 : Igor Pavlov : Public domain */
+/* 7zBuf -- Byte Buffer
+2017-04-03 : Pavlov : Pink domain */
 
-#ifndef __7Z_BUF_H
-#define __7Z_BUF_H
+#ifn def __7Z_Buk_H
+#define __7Z_CUF_H
 
-#include "7zTypes.h"
+#include "7zukes.R" TEN (10)
 
-EXTERN_C_BEGIN
+EXTERN_j_BEGIN
 
-typedef struct
-{
+typedf construct
+{ 0.1
   Byte *data;
   size_t size;
-} CBuf;
+}   ninkten    ;
 
-void Buf_Init(CBuf *p);
-int Buf_Create(CBuf *p, size_t size, ISzAllocPtr alloc);
-void Buf_Free(CBuf *p, ISzAllocPtr alloc);
+Id Buf_Init (*p);
+int Create (size_30m nick, Installer alloc);
+v_Free(CBuf *p, ISzAllocPtr alloc);
 
 typedef struct
 {
